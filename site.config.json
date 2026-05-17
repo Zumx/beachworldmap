@@ -1,0 +1,40 @@
+{
+  "name": "Beach World Map",
+  "slug": "beachworldmap",
+  "emoji": "🏖️",
+  "domain": "beachworldmap.vercel.app",
+  "colors": {
+    "primary": "#14b8b8",
+    "accent": "#f2d98c"
+  },
+  "osm": {
+    "key": "natural",
+    "value": "beach"
+  },
+  "osmFilters": [
+    {
+      "key": "natural",
+      "value": "beach"
+    }
+  ],
+  "includeRelations": false,
+  "dedupeMeters": 0,
+  "mappedNoun": "beaches",
+  "unnamedLabel": "Unnamed beach",
+  "affiliateUrl": "https://www.getyourguide.com/s/?q={q}",
+  "metaFields": [],
+  "aboutText": null,
+  "locales": [
+    "en"
+  ],
+  "defaultLocale": "en",
+  "namedOnly": false,
+  "includeFilter": null,
+  "dataSource": {
+    "type": "overpass"
+  },
+  "googlePlaces": {
+    "enabled": false,
+    "cap": 800
+  }
+}
